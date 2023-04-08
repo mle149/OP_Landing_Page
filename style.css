@@ -1,0 +1,52 @@
+header {
+    color: #f9faf8;
+    background-color: #1f2937;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+}
+
+#hero {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+#hero_main {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+#hero_secondary, nav {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+button, #call_to_action {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+#quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+#info_header {
+    font-size: 36px;
+    font-weight:800;
+    color: #1f2937;
+}
