@@ -1,10 +1,17 @@
+/* Global Styles */
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+/* TODO: Combine with header in flexbox section below */
 header {
     color: #f9faf8;
     background-color: #1f2937;
-}
-
-h1 {
-    font-size: 24px;
 }
 
 p {
@@ -52,8 +59,42 @@ button, #call_to_action {
 }
 
 /* FLEXBOX START */
-.parent_header {
+
+body {
+    min-height: 100vh;
+}
+
+/* Make the footer section always remain at the bottom of the page */
+.sticky_footer {
+    position: sticky;
+    top: 100%;
+}
+
+/* Header & Navigation Bar */
+nav {
     display: flex;
+    align-items: center;
+    /* Seperate logo from nav menu */
     justify-content: space-between;
-    align-items: baseline;
+}
+/* Nav bar next to one another */
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+/* Nav Bar Links */
+nav ul li a {
+    color: #f9faf8;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Hover effect for nav items */
+nav ul li a:hover {
+    color: red;
+    transition: .3s;   
+}
+
+.logo{
+    font-size: 24px;
 }
